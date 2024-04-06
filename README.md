@@ -1,15 +1,21 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 I'm using this project to improve my Nextjs and typescript skills. Afterwards, I will use it as a basis for my personal micro saas projects.
+
+This aplication will be:
+* Authorization with magic link and integration with Google, github, etc.
+* 
+
 ## Libs
 
 This application uses the below librires;
 
-- Next 14 Open [link](https://nextjs.org/docs) 
-- React JS Open [link](https://react.dev/) 
-- React hook Forms Open [link](https://react-hook-form.com/) 
-- Next Auth Open [link](https://next-auth.js.org/) 
-- Shadcn.ui Opne [link](https://ui.shadcn.com/docs/installation/next#run-the-cli)
+- Next 14 Open [Open link](https://nextjs.org/docs) 
+- React JS [Open link](https://react.dev/) 
+- React hook Forms [Open link](https://react-hook-form.com/) 
+- Next Auth [Open link](https://next-auth.js.org/) 
+- Shadcn.ui [Open link](https://ui.shadcn.com/docs/installation/next#run-the-cli)
+- Prisma [Open link](https://www.prisma.io/)
 
 ***
 
@@ -47,3 +53,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+I used the [Markdown Guide](https://github.com/im-luka/markdown-cheatsheet) to format this file
