@@ -1,8 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-I'm usn this projto to impruouve my skill on React, Nextjs and javascript/typescript.
-Afrter, I user this projeto to create my SAAS
-
+I'm using this project to improve my Nextjs and typescript skills. Afterwards, I will use it as a basis for my personal micro saas projects.
 ## Libs
 
 This application uses the below librires;
@@ -12,6 +10,8 @@ This application uses the below librires;
 - React hook Forms Open [link](https://react-hook-form.com/) 
 - Next Auth Open [link](https://next-auth.js.org/) 
 - Shadcn.ui Opne [link](https://ui.shadcn.com/docs/installation/next#run-the-cli)
+
+***
 
 ## Getting Started
 
