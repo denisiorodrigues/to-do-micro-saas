@@ -16,6 +16,7 @@ This application uses the below librires;
 - Next Auth [Open link](https://next-auth.js.org/) 
 - Shadcn.ui [Open link](https://ui.shadcn.com/docs/installation/next#run-the-cli)
 - Prisma [Open link](https://www.prisma.io/)
+- Nodemailer [Open link](https://nodemailer.com/#:~:text=Nodemailer%20Nodemailer%20is%20a%20module%20for%20Node.js%20applications,solution%20most%20Node.js%20users%20turn%20to%20by%20default.)
 
 ***
 

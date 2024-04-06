@@ -6,12 +6,14 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { useForm } from "react-hook-form"
+import { signIn } from "next-auth/react"
+
 
 export function AuthForm() {
 
   const form = useForm()
-  const handleSubmit  = form.handleSubmit((data) => {
-    console.log(data)
+  const handleSubmit  = form.handleSubmit(async (data) => {
+    await signIn('email', { email: data.email })
   })
 
   return (
