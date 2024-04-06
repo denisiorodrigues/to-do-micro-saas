@@ -1,10 +1,19 @@
+'use client'
+
 import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { useForm } from "react-hook-form"
 
 export function AuthForm() {
+
+  const form = useForm()
+  const handleSubmit  = form.handleSubmit((data) => {
+    console.log(data)
+  })
+
   return (
     <div className="flex flex-col gap-4 items-center">
       <Card className="w-full max-w-md">
@@ -13,13 +22,15 @@ export function AuthForm() {
           <CardDescription>Click the link in your email to log in to your account</CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
-          <div className="space-y-2">
-            <Label htmlFor="email">Email</Label>
-            <Input id="email" placeholder="m@example.com" required type="email" />
-          </div>
-          <Button className="w-full" type="submit">
-            Send Magic Link
-          </Button>
+          <form onSubmit={handleSubmit}>
+            <div className="space-y-2">
+              <Label htmlFor="email">Email</Label>
+              <Input id="email" placeholder="m@example.com" required type="email" {... form.register('email')}/>
+            </div>
+            <Button className="w-full" type="submit">
+              Send Magic Link
+            </Button>
+          </form>
         </CardContent>
       </Card>
       <Card className="w-full max-w-sm">

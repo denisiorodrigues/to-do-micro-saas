@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Libs
+
+This application uses the below librires;
+
+- Next 14
+- React JS
+- React hoow Forms
+- Next Auth [https://next-auth.js.org/](Open) 
+
+
 ## Getting Started
 
 First, run the development server:
